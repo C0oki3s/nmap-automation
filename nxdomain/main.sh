@@ -22,6 +22,6 @@ echo ""
 while read sub;do dig $sub;done <$dig | grep "nx"
 
 #if You want To remove file that saved By script automatically 
-# uscomment this below Lines
+# uncomment this below Lines
 #rm $file
 #rm $dig
