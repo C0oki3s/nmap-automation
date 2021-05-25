@@ -16,8 +16,8 @@ while sub;do dig $sub;done<sub | grep nxdomain
 
 1)assetfinder ur_domain | tee sub 
 
-assetfinder will find all the subdomain 
-ur_domain Enter ur_target_domain
-tee will split half to screen and half to file
+assetfinder will find all the subdomain <br>
+ur_domain Enter ur_target_domain<br>
+tee will split half to screen and half to file<br>
 
 2)while sub;do dig $sub;done<sub | grep nxdomain
