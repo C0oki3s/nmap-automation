@@ -3,7 +3,9 @@ If you have assetfinder written by Tomnomnom
 Then use this simple script Like This:
 
 #! /bin/bash
+
 echo "Enter domain name: "
+
 read domain
 
 assetfinder $domain | tee sub
